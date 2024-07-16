@@ -2,9 +2,9 @@
 
 echo "Cài đặt các ứng dụng cần thiết"
 sudo apt-get update -y
-sudo apt install nginx -y
+sudo apt-get install nginx -y
 sudo apt-get install wget git npm -y
-sudo apt install unzip -y
+sudo apt-get install unzip -y
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install nodejs -y
 
