@@ -26,23 +26,17 @@ else
 fi
 
 echo "Nhập tên Project"
-
 read themename
 
 echo "Nhập tên trang web"
-
 read webname
 
 cd /home
-
 mkdir Projects
-
 cd /root
 
 echo "Giải nén file codetheme.zip"
-
 unzip codetheme.zip -d $themename
-
 mv $themename /home/Projects/
 
 configix() {
@@ -72,7 +66,6 @@ server {
 EOF
 }
 echo "Tạo file config"
-
 configix
 
 cd /home/Projects/$themename
