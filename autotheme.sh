@@ -7,11 +7,6 @@ sudo apt-get install wget git npm -y
 sudo apt install unzip -y
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install nodejs -y
-sudo apt-get install dos2unix -y
-
-echo "Tải xuống và chuyển đổi tập tin"
-curl -o autotheme.sh https://raw.githubusercontent.com/voimamut79/sh/main/autotheme.sh
-dos2unix autotheme.sh
 
 # Lấy phiên bản của Node.js
 node_version=$(node --version | cut -d 'v' -f 2)
